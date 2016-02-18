@@ -14,5 +14,15 @@ module.exports = {
 			'if you liked it then you should\'ve put a wing on it'
 		];
 		return puns[Math.floor(Math.random() * puns.length)];
+	},
+	promiseToBeFunny: function() {
+		return new Promise(function(laughAt, scoffAt) {
+			var pun = module.exports.getBirdPun();
+			if (pun === 'funny') {
+				laughAt(pun);
+			} else {
+				scoffAt(pun);
+			}
+		});
 	}
 };
