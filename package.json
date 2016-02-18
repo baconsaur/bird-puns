@@ -1,0 +1,14 @@
+{
+  "name": "bird-puns",
+  "version": "0.0.1",
+  "description": "A useful tool for all your bird pun needs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ash Kestrel",
+  "license": "ISC",
+  "dependencies": {
+    "debunk": "^1.2.0"
+  }
+}
