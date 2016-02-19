@@ -11,7 +11,8 @@ module.exports = {
 			'I just caw it like I see it',
 			'Tweet yo self!',
 			'Have a pheasant evening',
-			'if you liked it then you should\'ve put a wing on it'
+			'If you liked it then you should\'ve put a wing on it',
+			'They\'ll be raven about this for years.'
 		];
 		return puns[Math.floor(Math.random() * puns.length)];
 	},
