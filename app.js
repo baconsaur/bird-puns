@@ -12,7 +12,9 @@ module.exports = {
 			'Tweet yo self!',
 			'Have a pheasant evening',
 			'If you liked it then you should\'ve put a wing on it',
-			'They\'ll be raven about this for years.'
+			'They\'ll be raven about this for years.',
+      'Unflappable',
+      'Beak Performance'
 		];
 		return puns[Math.floor(Math.random() * puns.length)];
 	},
